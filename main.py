@@ -34,7 +34,7 @@ limiter = Limiter(key_func=get_remote_address)
 # Production configuration
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 ENVIRONMENT = os.environ.get("ENVIRONMENT", "development")
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,*.railway.app").split(",")
 
 # Load secure configuration (now encrypted!)
 email_config = secure_config.get_email_config()
@@ -116,21 +116,7 @@ app.add_middleware(
 
 app.add_middleware(
     TrustedHostMiddleware,
-    allowed_hosts=ALLOWED_HOSTS
-)
-
-# CORS and Trusted Host middleware for security
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Update this in production to specify allowed origins
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-app.add_middleware(
-    TrustedHostMiddleware,
-    allowed_hosts=ALLOWED_HOSTS
+    allowed_hosts=["*"] if DEBUG else ALLOWED_HOSTS
 )
 
 app.add_middleware(SessionMiddleware, secret_key=SECRET_KEY)
