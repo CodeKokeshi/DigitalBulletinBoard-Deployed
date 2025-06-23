@@ -1,155 +1,155 @@
 {
-    "important_announcements": [
+  "important_announcements": [
+    {
+      "link": "/announcement/1000",
+      "date": "Dec 08, 2024",
+      "title": "No Classes",
+      "guest_mode": false,
+      "announcement_id": 1000,
+      "sorting_date": "12/08/2024",
+      "likes": {
+        "amount": 5,
+        "accounts": [
+          "kokeshiaikawa004@gmail.com",
+          "qwerty123@gmail.com",
+          "cc.faithzoe.alviola@cvsu.edu.ph",
+          "kokeshiaikawa003@gmail.com",
+          "cc.markardie.dolar@cvsu.edu.ph"
+        ]
+      },
+      "description": "Classes are suspended for the Feast of the Immaculate Conception, a special non-working holiday.",
+      "image_attachment": "/static/images/archived/1.jpg",
+      "archive_id": 1
+    },
+    {
+      "link": "/announcement/1005",
+      "date": "Dec 10 - Dec 11, 2024",
+      "title": "System Maintenance Notice",
+      "guest_mode": false,
+      "announcement_id": 1005,
+      "sorting_date": "12/11/2024",
+      "likes": {
+        "amount": 1,
+        "accounts": [
+          "cc.markardie.dolar@cvsu.edu.ph"
+        ]
+      },
+      "description": "The student portal will be down for maintenance from December 10, 2024, 10:00 PM to December 11, 2024, 6:00 AM.",
+      "archive_id": 2
+    },
+    {
+      "link": "/announcement/1006",
+      "date": "Dec 14, 2024",
+      "title": "To Delete Try",
+      "guest_mode": false,
+      "announcement_id": 1006,
+      "sorting_date": "12/14/2024",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Archive this announement for testing.",
+      "archive_id": 3
+    },
+    {
+      "link": "/announcement/2001",
+      "date": "Dec 14, 2024",
+      "title": "Career Guidance Seminar",
+      "guest_mode": false,
+      "announcement_id": 2001,
+      "sorting_date": "12/14/2024",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "A career seminar will be held on December 14, 2024, at 1:00 PM in Auditorium 2. Open to all students.",
+      "image_attachment": "/static/images/archived/4.jpg",
+      "archive_id": 4
+    },
+    {
+      "link": "/announcement/2004",
+      "date": "Dec 10, 2024",
+      "title": "Student Organization Open House",
+      "guest_mode": false,
+      "announcement_id": 2004,
+      "sorting_date": "12/10/2024",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Explore and join student organizations on January 10, 2025, at the Student Center from 9:00 AM to 4:00 PM.",
+      "image_attachment": "/static/images/archived/5.jpg",
+      "archive_id": 5
+    },
+    {
+      "link": "/announcement/2010",
+      "date": "Dec 14, 2024",
+      "title": "I jest",
+      "guest_mode": true,
+      "announcement_id": 2010,
+      "sorting_date": "12/14/2024",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "I guess?",
+      "archive_id": 6
+    },
+    {
+      "link": "/announcement/1005",
+      "date": "Dec 16, 2024",
+      "title": "Delete this",
+      "guest_mode": false,
+      "announcement_id": 1005,
+      "sorting_date": "12/16/2024",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "AHhhhhhhhhhhhh",
+      "comments": [
         {
-            "link": "/announcement/1000",
-            "date": "Dec 08, 2024",
-            "title": "No Classes",
-            "guest_mode": false,
-            "announcement_id": 1000,
-            "sorting_date": "12/08/2024",
-            "likes": {
-                "amount": 5,
-                "accounts": [
-                    "kokeshiaikawa004@gmail.com",
-                    "qwerty123@gmail.com",
-                    "cc.faithzoe.alviola@cvsu.edu.ph",
-                    "kokeshiaikawa003@gmail.com",
-                    "cc.markardie.dolar@cvsu.edu.ph"
-                ]
-            },
-            "description": "Classes are suspended for the Feast of the Immaculate Conception, a special non-working holiday.",
-            "image_attachment": "/static/images/archived/1.jpg",
-            "archive_id": 1
-        },
-        {
-            "link": "/announcement/1005",
-            "date": "Dec 10 - Dec 11, 2024",
-            "title": "System Maintenance Notice",
-            "guest_mode": false,
-            "announcement_id": 1005,
-            "sorting_date": "12/11/2024",
-            "likes": {
-                "amount": 1,
-                "accounts": [
-                    "cc.markardie.dolar@cvsu.edu.ph"
-                ]
-            },
-            "description": "The student portal will be down for maintenance from December 10, 2024, 10:00 PM to December 11, 2024, 6:00 AM.",
-            "archive_id": 2
-        },
-        {
-            "link": "/announcement/1006",
-            "date": "Dec 14, 2024",
-            "title": "To Delete Try",
-            "guest_mode": false,
-            "announcement_id": 1006,
-            "sorting_date": "12/14/2024",
-            "likes": {
-                "amount": 0,
-                "accounts": []
-            },
-            "description": "Archive this announement for testing.",
-            "archive_id": 3
-        },
-        {
-            "link": "/announcement/2001",
-            "date": "Dec 14, 2024",
-            "title": "Career Guidance Seminar",
-            "guest_mode": false,
-            "announcement_id": 2001,
-            "sorting_date": "12/14/2024",
-            "likes": {
-                "amount": 0,
-                "accounts": []
-            },
-            "description": "A career seminar will be held on December 14, 2024, at 1:00 PM in Auditorium 2. Open to all students.",
-            "image_attachment": "/static/images/archived/4.jpg",
-            "archive_id": 4
-        },
-        {
-            "link": "/announcement/2004",
-            "date": "Dec 10, 2024",
-            "title": "Student Organization Open House",
-            "guest_mode": false,
-            "announcement_id": 2004,
-            "sorting_date": "12/10/2024",
-            "likes": {
-                "amount": 0,
-                "accounts": []
-            },
-            "description": "Explore and join student organizations on January 10, 2025, at the Student Center from 9:00 AM to 4:00 PM.",
-            "image_attachment": "/static/images/archived/5.jpg",
-            "archive_id": 5
-        },
-        {
-            "link": "/announcement/2010",
-            "date": "Dec 14, 2024",
-            "title": "I jest",
-            "guest_mode": true,
-            "announcement_id": 2010,
-            "sorting_date": "12/14/2024",
-            "likes": {
-                "amount": 0,
-                "accounts": []
-            },
-            "description": "I guess?",
-            "archive_id": 6
-        },
-        {
-            "link": "/announcement/1005",
-            "date": "Dec 16, 2024",
-            "title": "Delete this",
-            "guest_mode": false,
-            "announcement_id": 1005,
-            "sorting_date": "12/16/2024",
-            "likes": {
-                "amount": 0,
-                "accounts": []
-            },
-            "description": "AHhhhhhhhhhhhh",
-            "comments": [
-                {
-                    "username": "Mark Ardie P. Dolar",
-                    "comment": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "date": "2024-12-17 08:22:58",
-                    "email": "cc.markardie.dolar@cvsu.edu.ph"
-                }
-            ],
-            "archive_id": 7
-        },
-        {
-            "link": "/announcement/2000",
-            "date": "Dec 09 - Dec 15, 2024",
-            "title": "Library Closure for Inventory",
-            "guest_mode": false,
-            "announcement_id": 2000,
-            "sorting_date": "12/15/2024",
-            "likes": {
-                "amount": 1,
-                "accounts": [
-                    "cc.markardie.dolar@cvsu.edu.ph"
-                ]
-            },
-            "description": "The university library will close for inventory management. Please plan your study schedules accordingly.",
-            "image_attachment": "/static/images/archived/8.png",
-            "archive_id": 8
-        },
-        {
-            "link": "/announcement/2002",
-            "date": "Dec 16, 2024",
-            "title": "Call for Volunteers - Clean and Green Initiative",
-            "guest_mode": false,
-            "announcement_id": 2002,
-            "sorting_date": "12/16/2024",
-            "likes": {
-                "amount": 0,
-                "accounts": []
-            },
-            "description": "Join us for a campus cleanup on December 16, 2024. Interested participants can sign up at the Student Affairs Office.",
-            "image_attachment": "/static/images/archived/9.jpeg",
-            "archive_id": 9
+          "username": "Mark Ardie P. Dolar",
+          "comment": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "date": "2024-12-17 08:22:58",
+          "email": "cc.markardie.dolar@cvsu.edu.ph"
         }
-    ],
-    "upcoming_deadlines_events": [],
-    "milestones": []
+      ],
+      "archive_id": 7
+    },
+    {
+      "link": "/announcement/2000",
+      "date": "Dec 09 - Dec 15, 2024",
+      "title": "Library Closure for Inventory",
+      "guest_mode": false,
+      "announcement_id": 2000,
+      "sorting_date": "12/15/2024",
+      "likes": {
+        "amount": 1,
+        "accounts": [
+          "cc.markardie.dolar@cvsu.edu.ph"
+        ]
+      },
+      "description": "The university library will close for inventory management. Please plan your study schedules accordingly.",
+      "image_attachment": "/static/images/archived/8.png",
+      "archive_id": 8
+    },
+    {
+      "link": "/announcement/2002",
+      "date": "Dec 16, 2024",
+      "title": "Call for Volunteers - Clean and Green Initiative",
+      "guest_mode": false,
+      "announcement_id": 2002,
+      "sorting_date": "12/16/2024",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Join us for a campus cleanup on December 16, 2024. Interested participants can sign up at the Student Affairs Office.",
+      "image_attachment": "/static/images/archived/9.jpeg",
+      "archive_id": 9
+    }
+  ],
+  "upcoming_deadlines_events": [],
+  "milestones": []
 }

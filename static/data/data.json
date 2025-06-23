@@ -11,7 +11,7 @@
         "amount": 0,
         "accounts": []
       },
-      "image_attachment": "/images/1000.jpg",
+      "image_attachment": "/static/images/1000.jpg",
       "description": "Admission for the First Semester of Academic Year 2025 - 2026 is now open."
     },
     {
@@ -28,7 +28,7 @@
           "marthellalou003@gmail.com"
         ]
       },
-      "image_attachment": "/images/1001.JPG",
+      "image_attachment": "/static/images/1001.jpg",
       "description": "The 2025 Graduation Ceremony will be held at the CVSU Gymnasium. Graduates are required to attend the rehearsal on January 31, 2025.",
       "comments": [
         {
@@ -59,7 +59,7 @@
         ]
       },
       "description": "Don't forget to study before the big day!",
-      "image_attachment": "/images/1002.jpg",
+      "image_attachment": "/static/images/1002.jpg",
       "comments": []
     },
     {
@@ -76,7 +76,7 @@
         ]
       },
       "description": "Submit your application via the scholarship office website.",
-      "image_attachment": "/images/1003.jpeg"
+      "image_attachment": "/static/images/1003.jpeg"
     },
     {
       "link": "/announcement/1004",
@@ -93,7 +93,7 @@
       },
       "description": "The university has updated its academic policies, including new attendance requirements and grading system changes. Visit the Registrar's Office or check the university website for full details.",
       "comments": [],
-      "image_attachment": "/images/1004.png"
+      "image_attachment": "/static/images/1004.png"
     },
     {
       "link": "/announcement/1005",
@@ -109,7 +109,7 @@
         ]
       },
       "description": "Meet top employers and explore career opportunities! Open to juniors, seniors, and alumni. Don\u2019t forget to bring your updated resume.",
-      "image_attachment": "/images/1005.jpg"
+      "image_attachment": "/static/images/1005.jpg"
     },
     {
       "link": "/announcement/1007",
@@ -123,7 +123,7 @@
         "accounts": []
       },
       "description": "01/20/2025 is the official launch of our website!",
-      "image_attachment": "/images/1007.png"
+      "image_attachment": "/static/images/1007.png"
     },
     {
       "link": "/announcement/1008",
@@ -137,7 +137,7 @@
         "accounts": []
       },
       "description": "Real announcement",
-      "image_attachment": "/images/1008.jpg"
+      "image_attachment": "/static/images/1008.jpg"
     }
   ],
   "upcoming_deadlines_events": [
@@ -155,7 +155,7 @@
         ]
       },
       "description": "Location: CVSU Library\n\nExplore Carmona's rich heritage through a curated exhibit of photos, artifacts, and stories. Free and open to the public.",
-      "image_attachment": "/images/2000.JPG",
+      "image_attachment": "/static/images/2000.jpg",
       "comments": [
         {
           "username": "Alpha Tester",
@@ -177,7 +177,7 @@
         "accounts": []
       },
       "description": "Location: Municipal Hall, Carmona\n\nJoin us for a discussion on the impact of climate change in Cavite and the local government's initiatives to address it.",
-      "image_attachment": "/images/2001.JPG"
+      "image_attachment": "/static/images/2001.jpg"
     },
     {
       "link": "/announcement/2002",
@@ -191,7 +191,7 @@
         "accounts": []
       },
       "description": "Location: CVSU Carmona Grounds\nFree health screenings, wellness workshops, and fitness demos. Open to all members of the community",
-      "image_attachment": "/images/2002.png"
+      "image_attachment": "/static/images/2002.png"
     },
     {
       "link": "/announcement/2003",
@@ -204,7 +204,7 @@
         "amount": 0,
         "accounts": []
       },
-      "image_attachment": "/images/2003.jpg",
+      "image_attachment": "/static/images/2003.jpg",
       "description": "Join us in keeping our community clean. Volunteers will receive certificates and free lunch."
     },
     {
@@ -219,7 +219,7 @@
         "accounts": []
       },
       "description": "Celebrate love and friendship with booths, games, and live music. Bring your friends and join the fun!",
-      "image_attachment": "/images/2004.jpeg"
+      "image_attachment": "/static/images/2004.jpeg"
     },
     {
       "link": "/announcement/2005",
@@ -228,7 +228,7 @@
       "guest_mode": false,
       "announcement_id": 2005,
       "sorting_date": "04/03/2025",
-      "image_attachment": "/images/2005.jpg",
+      "image_attachment": "/static/images/2005.jpg",
       "likes": {
         "amount": 0,
         "accounts": []
@@ -247,7 +247,7 @@
         "accounts": []
       },
       "description": "Random Description",
-      "image_attachment": "/images/1007.jpg"
+      "image_attachment": "/static/images/1007.jpg"
     }
   ],
   "milestones": [
@@ -263,7 +263,7 @@
         "accounts": []
       },
       "description": "Recognized as a top-performing campus within the CvSU system for producing quality graduates in various fields of study. Achieved high passing rates in licensure exams, consistently surpassing national averages.",
-      "image_attachment": "/images/3000.jpg"
+      "image_attachment": "/static/images/3000.jpg"
     },
     {
       "link": "/announcement/3001",
@@ -277,7 +277,7 @@
         "accounts": []
       },
       "description": "Completed the construction of modern, eco-friendly academic buildings equipped with state-of-the-art laboratories and facilities. Established dedicated spaces for innovation, research, and technology development, enhancing student and faculty productivity.",
-      "image_attachment": "/images/3001.jpg"
+      "image_attachment": "/static/images/3001.jpg"
     },
     {
       "link": "/announcement/3002",
@@ -291,7 +291,7 @@
         "accounts": []
       },
       "description": "Awarded multiple grants for community-oriented research projects addressing local and national issues.",
-      "image_attachment": "/images/3002.png"
+      "image_attachment": "/static/images/3002.png"
     },
     {
       "link": "https://www.facebook.com/share/p/164ADvoC5P/",
@@ -300,7 +300,7 @@
       "guest_mode": false,
       "announcement_id": 3003,
       "sorting_date": "01/15/2025",
-      "image_attachment": "/images/3003.jpg",
+      "image_attachment": "/static/images/3003.jpg",
       "likes": {
         "amount": 0,
         "accounts": []
@@ -313,7 +313,7 @@
       "guest_mode": false,
       "announcement_id": 3004,
       "sorting_date": "01/15/2025",
-      "image_attachment": "/images/3004.jpg",
+      "image_attachment": "/static/images/3004.jpg",
       "likes": {
         "amount": 0,
         "accounts": []
@@ -326,7 +326,7 @@
       "title": "Digital Bulletin Board is 3 months old!",
       "guest_mode": false,
       "announcement_id": 3005,
-      "image_attachment": "/images/3005.png",
+      "image_attachment": "/static/images/3005.png",
       "sorting_date": "01/17/2025",
       "likes": {
         "amount": 0,
