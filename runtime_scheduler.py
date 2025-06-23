@@ -46,23 +46,6 @@ class RuntimeScheduler:
         else:
             # Overnight case: 10 PM to 8 AM
             return current_time >= self.start_time or current_time <= self.end_time
-      def is_runtime_allowed(self) -> bool:
-        """Check if current time is within allowed runtime hours"""
-        now = datetime.now(self.timezone)
-        current_time = now.time()
-        
-        # Check weekdays only mode
-        if self.weekdays_only:
-            # Monday = 0, Sunday = 6
-            if now.weekday() >= 5:  # Saturday (5) or Sunday (6)
-                return False
-        
-        if self.start_time <= self.end_time:
-            # Normal case: 8 AM to 10 PM
-            return self.start_time <= current_time <= self.end_time
-        else:
-            # Overnight case: 10 PM to 8 AM
-            return current_time >= self.start_time or current_time <= self.end_time
     
     def get_next_runtime(self) -> str:
         """Get next allowed runtime as string"""
@@ -89,18 +72,28 @@ class RuntimeScheduler:
                 microsecond=0
             ) + timedelta(days=1)
         
+        # If weekdays only, adjust to next weekday
+        if self.weekdays_only:
+            while next_start.weekday() >= 5:  # Skip weekends
+                next_start += timedelta(days=1)
+        
         return next_start.strftime("%Y-%m-%d %H:%M %Z")
     
     def get_schedule_info(self) -> dict:
         """Get schedule information"""
+        schedule_type = "Weekdays Only" if self.weekdays_only else "Daily"
+        daily_hours = self._calculate_daily_hours()
+        monthly_hours = daily_hours * (22 if self.weekdays_only else 30)  # 22 weekdays per month
+        
         return {
             "start_time": self.start_time.strftime("%H:%M"),
             "end_time": self.end_time.strftime("%H:%M"),
             "timezone": str(self.timezone),
+            "schedule_type": schedule_type,
             "is_running": self.is_runtime_allowed(),
             "next_runtime": self.get_next_runtime(),
-            "daily_hours": self._calculate_daily_hours(),
-            "monthly_hours": self._calculate_daily_hours() * 30
+            "daily_hours": daily_hours,
+            "monthly_hours": monthly_hours
         }
     
     def _calculate_daily_hours(self) -> float:
@@ -150,6 +143,12 @@ def check_runtime_allowed():
                     border-radius: 10px; 
                     margin: 20px 0;
                 }}
+                .badge {{ 
+                    background: rgba(255,255,255,0.3); 
+                    padding: 5px 10px; 
+                    border-radius: 15px; 
+                    font-size: 0.9em;
+                }}
             </style>
         </head>
         <body>
@@ -160,6 +159,7 @@ def check_runtime_allowed():
                 <p>The bulletin board is currently offline for scheduled maintenance.</p>
                 
                 <div class="schedule">
+                    <span class="badge">{schedule_info['schedule_type']}</span><br><br>
                     <strong>Operating Hours:</strong><br>
                     {schedule_info['start_time']} - {schedule_info['end_time']} {schedule_info['timezone']}
                 </div>
@@ -170,6 +170,7 @@ def check_runtime_allowed():
                 </div>
                 
                 <p>This helps conserve server resources and ensures optimal performance during peak hours.</p>
+                <p><em>Monthly usage: {schedule_info['monthly_hours']:.0f} hours (within free tier limits)</em></p>
                 <p>Thank you for your understanding! 🙏</p>
             </div>
         </body>
@@ -180,5 +181,3 @@ def check_runtime_allowed():
             detail=maintenance_html,
             headers={"Content-Type": "text/html"}
         )
-
-from datetime import timedelta
