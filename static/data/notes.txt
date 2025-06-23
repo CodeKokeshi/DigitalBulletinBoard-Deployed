@@ -1,0 +1,5 @@
+announcement_id = 10
+
+1 represents the category and 0 represents the index of the announcement in the category.
+This can be used to get the announcement from the list of announcements in the category.
+And to make an application for modifying, deleting, and adding announcements.

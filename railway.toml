@@ -1,0 +1,21 @@
+# Railway Deployment Configuration
+
+# Build Command (Railway runs this automatically)
+# pip install -r requirements.txt
+
+# Start Command
+# python main.py
+
+# Environment Variables to set in Railway dashboard:
+# DEBUG=False
+# ENVIRONMENT=production
+# ALLOWED_HOSTS=yourapp.railway.app,yourdomain.com
+
+# TIMEZONE CONFIGURATION (Philippines/Singapore +8 GMT)
+# TIMEZONE=Asia/Manila
+# RUNTIME_START_HOUR=9         # 9 AM Philippines time
+# RUNTIME_END_HOUR=21          # 9 PM Philippines time
+# RUNTIME_WEEKDAYS_ONLY=true   # Portfolio mode: Monday-Friday only
+
+# Your encrypted configuration files will be deployed automatically
+# Railway will preserve your encrypted_data/ and super_secret_stuff/ directories

@@ -1,0 +1,52 @@
+Database Setup
+
+Open \DigitalBulletinBoard\super_secret_stuff\supersecret.json
+
+Locate the database on Database_Stuff.
+"Database_Stuff": [
+    {
+        "host": "localhost", -> Host name usually "localhost"
+        "user": "root", -> Username usually "root"
+        "password": "Password123", -> MySQL Password
+        "port": "3306", -> Port Number usually 3306
+        "database": "ExampleDatabase" -> Database Name
+    }
+]
+
+Setup your configuration.
+
+then Create a database with that DatabaseName you put in the supersecret.json
+In this case it's ExampleDatabase
+
+After creating a database, create the table of the users containing the following.
+
+CREATE TABLE users (
+    full_name VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+    email VARCHAR(255) NOT NULL PRIMARY KEY,
+    password VARCHAR(255) NOT NULL
+);
+
+
+To setup Email verification sending.
+
+Open \DigitalBulletinBoard\super_secret_stuff\supersecret.json
+
+put your email in the email_sender and put your application password on the password.
+
+To get your application password you have to generate it.
+
+Goto this link.
+
+https://myaccount.google.com/apppasswords
+
+Login your gmail account
+
+And create an app password. It would look like something below.
+
+"verification": [
+    {
+        "email_sender": "example@email.com",
+        "password": "aagk hbee azfs done"
+    }
+]

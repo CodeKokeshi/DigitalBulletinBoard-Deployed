@@ -1,0 +1,338 @@
+{
+  "important_announcements": [
+    {
+      "link": "https://www.facebook.com/share/p/18RdoTVKQG/",
+      "date": "Jan 13 - Mar 01, 2025",
+      "title": "Admission First Semester AY 2025 - 2026",
+      "guest_mode": true,
+      "announcement_id": 1000,
+      "sorting_date": "03/01/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "image_attachment": "/images/1000.jpg",
+      "description": "Admission for the First Semester of Academic Year 2025 - 2026 is now open."
+    },
+    {
+      "link": "/announcement/1001",
+      "date": "Feb 01, 2025",
+      "title": "2025 Graduation Ceremony",
+      "guest_mode": true,
+      "announcement_id": 1001,
+      "sorting_date": "02/01/2025",
+      "likes": {
+        "amount": 2,
+        "accounts": [
+          "test@te.st",
+          "marthellalou003@gmail.com"
+        ]
+      },
+      "image_attachment": "/images/1001.JPG",
+      "description": "The 2025 Graduation Ceremony will be held at the CVSU Gymnasium. Graduates are required to attend the rehearsal on January 31, 2025.",
+      "comments": [
+        {
+          "username": "Alpha Tester",
+          "comment": "Mark",
+          "date": "2025-01-17 14:53:47",
+          "email": "marthellalou003@gmail.com"
+        },
+        {
+          "username": "Test Account",
+          "comment": "Hi.",
+          "date": "2025-01-17 23:18:22",
+          "email": "test@te.st"
+        }
+      ]
+    },
+    {
+      "link": "/announcement/1002",
+      "date": "Jan 20 - Jan 25, 2025",
+      "title": "Final Exams",
+      "guest_mode": false,
+      "announcement_id": 1002,
+      "sorting_date": "01/25/2025",
+      "likes": {
+        "amount": 1,
+        "accounts": [
+          "marthellalou003@gmail.com"
+        ]
+      },
+      "description": "Don't forget to study before the big day!",
+      "image_attachment": "/images/1002.jpg",
+      "comments": []
+    },
+    {
+      "link": "/announcement/1003",
+      "date": "Feb 28, 2025",
+      "title": "Scholarship Applications Open",
+      "guest_mode": false,
+      "announcement_id": 1003,
+      "sorting_date": "02/28/2025",
+      "likes": {
+        "amount": 1,
+        "accounts": [
+          "marthellalou003@gmail.com"
+        ]
+      },
+      "description": "Submit your application via the scholarship office website.",
+      "image_attachment": "/images/1003.jpeg"
+    },
+    {
+      "link": "/announcement/1004",
+      "date": "Jan 15, 2025",
+      "title": "Updated Academic Policies for 2025",
+      "guest_mode": false,
+      "announcement_id": 1004,
+      "sorting_date": "01/15/2025",
+      "likes": {
+        "amount": 1,
+        "accounts": [
+          "marthellalou003@gmail.com"
+        ]
+      },
+      "description": "The university has updated its academic policies, including new attendance requirements and grading system changes. Visit the Registrar's Office or check the university website for full details.",
+      "comments": [],
+      "image_attachment": "/images/1004.png"
+    },
+    {
+      "link": "/announcement/1005",
+      "date": "Feb 18, 2025",
+      "title": "University Job Fair 2025",
+      "guest_mode": true,
+      "announcement_id": 1005,
+      "sorting_date": "02/18/2025",
+      "likes": {
+        "amount": 1,
+        "accounts": [
+          "marthellalou003@gmail.com"
+        ]
+      },
+      "description": "Meet top employers and explore career opportunities! Open to juniors, seniors, and alumni. Don\u2019t forget to bring your updated resume.",
+      "image_attachment": "/images/1005.jpg"
+    },
+    {
+      "link": "/announcement/1007",
+      "date": "Jan 20, 2025",
+      "title": "Digital Bulletin Board Launch!",
+      "guest_mode": false,
+      "announcement_id": 1007,
+      "sorting_date": "01/20/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "01/20/2025 is the official launch of our website!",
+      "image_attachment": "/images/1007.png"
+    },
+    {
+      "link": "/announcement/1008",
+      "date": "Jan 21, 2025",
+      "title": "Test",
+      "guest_mode": true,
+      "announcement_id": 1008,
+      "sorting_date": "01/21/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Real announcement",
+      "image_attachment": "/images/1008.jpg"
+    }
+  ],
+  "upcoming_deadlines_events": [
+    {
+      "link": "/announcement/2000",
+      "date": "Feb 19, 2025",
+      "title": "Carmona Local History Exhibit",
+      "guest_mode": true,
+      "announcement_id": 2000,
+      "sorting_date": "02/19/2025",
+      "likes": {
+        "amount": 1,
+        "accounts": [
+          "admin"
+        ]
+      },
+      "description": "Location: CVSU Library\n\nExplore Carmona's rich heritage through a curated exhibit of photos, artifacts, and stories. Free and open to the public.",
+      "image_attachment": "/images/2000.JPG",
+      "comments": [
+        {
+          "username": "Alpha Tester",
+          "comment": "Sample comment.",
+          "date": "2025-01-23 17:04:41",
+          "email": "marthellalou003@gmail.com"
+        }
+      ]
+    },
+    {
+      "link": "/announcement/2001",
+      "date": "Feb 20, 2025",
+      "title": "Public Lecture: Climate Action in Cavite",
+      "guest_mode": true,
+      "announcement_id": 2001,
+      "sorting_date": "02/20/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Location: Municipal Hall, Carmona\n\nJoin us for a discussion on the impact of climate change in Cavite and the local government's initiatives to address it.",
+      "image_attachment": "/images/2001.JPG"
+    },
+    {
+      "link": "/announcement/2002",
+      "date": "Feb 25, 2025",
+      "title": "Community Wellness Fair",
+      "guest_mode": false,
+      "announcement_id": 2002,
+      "sorting_date": "02/25/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Location: CVSU Carmona Grounds\nFree health screenings, wellness workshops, and fitness demos. Open to all members of the community",
+      "image_attachment": "/images/2002.png"
+    },
+    {
+      "link": "/announcement/2003",
+      "date": "Jan 25, 2025",
+      "title": "Clean-Up Drive",
+      "guest_mode": false,
+      "announcement_id": 2003,
+      "sorting_date": "01/25/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "image_attachment": "/images/2003.jpg",
+      "description": "Join us in keeping our community clean. Volunteers will receive certificates and free lunch."
+    },
+    {
+      "link": "/announcement/2004",
+      "date": "Feb 14, 2025",
+      "title": "Valentine's Day Fair",
+      "guest_mode": false,
+      "announcement_id": 2004,
+      "sorting_date": "02/14/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Celebrate love and friendship with booths, games, and live music. Bring your friends and join the fun!",
+      "image_attachment": "/images/2004.jpeg"
+    },
+    {
+      "link": "/announcement/2005",
+      "date": "Apr 03, 2025",
+      "title": "Opening of the New Research and Development Center",
+      "guest_mode": false,
+      "announcement_id": 2005,
+      "sorting_date": "04/03/2025",
+      "image_attachment": "/images/2005.jpg",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "A state-of-the-art facility dedicated to fostering innovation and research across all disciplines. Attend the ribbon-cutting ceremony at 10 AM."
+    },
+    {
+      "link": "/announcement/2006",
+      "date": "Jan 15, 2025",
+      "title": "Test Announcement",
+      "guest_mode": false,
+      "announcement_id": 2006,
+      "sorting_date": "01/15/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Random Description",
+      "image_attachment": "/images/1007.jpg"
+    }
+  ],
+  "milestones": [
+    {
+      "link": "/announcement/3000",
+      "date": "Jan 15, 2025",
+      "title": "Academic Excellence",
+      "guest_mode": false,
+      "announcement_id": 3000,
+      "sorting_date": "01/15/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Recognized as a top-performing campus within the CvSU system for producing quality graduates in various fields of study. Achieved high passing rates in licensure exams, consistently surpassing national averages.",
+      "image_attachment": "/images/3000.jpg"
+    },
+    {
+      "link": "/announcement/3001",
+      "date": "Jan 16, 2025",
+      "title": "Infrastructure Development",
+      "guest_mode": false,
+      "announcement_id": 3001,
+      "sorting_date": "01/16/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Completed the construction of modern, eco-friendly academic buildings equipped with state-of-the-art laboratories and facilities. Established dedicated spaces for innovation, research, and technology development, enhancing student and faculty productivity.",
+      "image_attachment": "/images/3001.jpg"
+    },
+    {
+      "link": "/announcement/3002",
+      "date": "Jan 25, 2025",
+      "title": "Research and Innovation",
+      "guest_mode": false,
+      "announcement_id": 3002,
+      "sorting_date": "01/25/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Awarded multiple grants for community-oriented research projects addressing local and national issues.",
+      "image_attachment": "/images/3002.png"
+    },
+    {
+      "link": "https://www.facebook.com/share/p/164ADvoC5P/",
+      "date": "Jan 15, 2025",
+      "title": "Top 4 Performing School",
+      "guest_mode": false,
+      "announcement_id": 3003,
+      "sorting_date": "01/15/2025",
+      "image_attachment": "/images/3003.jpg",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      }
+    },
+    {
+      "link": "/announcement/3004",
+      "date": "Jan 15, 2025",
+      "title": "Celebrating 1,000 Users on the Bulletin Board!",
+      "guest_mode": false,
+      "announcement_id": 3004,
+      "sorting_date": "01/15/2025",
+      "image_attachment": "/images/3004.jpg",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Thank you for being part of our journey! As a token of appreciation, all active users will receive an exclusive digital badge."
+    },
+    {
+      "link": "/announcement/3005",
+      "date": "Jan 17, 2025",
+      "title": "Digital Bulletin Board is 3 months old!",
+      "guest_mode": false,
+      "announcement_id": 3005,
+      "image_attachment": "/images/3005.png",
+      "sorting_date": "01/17/2025",
+      "likes": {
+        "amount": 0,
+        "accounts": []
+      },
+      "description": "Thank you for being part of our journey!"
+    }
+  ]
+}

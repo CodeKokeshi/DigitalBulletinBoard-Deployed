@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/static/css/common.css?v={{ version }}" rel="stylesheet">
+</head>
+<body class="bg-primary d-flex flex-column min-vh-100">
+    <!-- Sticky Navigation Bar -->
+    {% include 'navbar.html' %}
+
+    <div class="container bg-white shadow rounded py-4 px-3 mt-3">
+        <h1 class="text-primary text-center mb-2" style="font-size: 1.75rem;">Digital Bulletin Board</h1>
+        <p class="text-center text-black-50 fst-italic mb-2">Centralized Platform for Important Announcements and Milestones</p>
+
+        <!-- Toggle Switch -->
+        <div class="d-flex justify-content-center mb-3">
+            <label class="form-check-label me-2" for="viewToggle">List View</label>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="viewToggle" checked>
+            </div>
+            <label class="form-check-label ms-2" for="viewToggle">Carousel View</label>
+        </div>
+
+        <!-- Announcement Views -->
+        <div id="listView" class="d-none">{% include 'listView_homepage.html' %}</div>
+        <div id="carouselView">{% include 'carousel_homepage.html' %}</div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/homepage.js?v={{ version }}"></script>
+    <script src="/static/js/homepage_carousel.js?v={{ version }}"></script>
+    <script src="/static/js/navbar.js?v={{ version }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const viewToggle = document.getElementById('viewToggle');
+            const listView = document.getElementById('listView');
+            const carouselView = document.getElementById('carouselView');
+
+            function updateView() {
+                if (viewToggle.checked) {
+                    listView.classList.add('d-none');
+                    carouselView.classList.remove('d-none');
+                } else {
+                    carouselView.classList.add('d-none');
+                    listView.classList.remove('d-none');
+                }
+            }
+
+            viewToggle.addEventListener('change', updateView);
+            updateView(); // Ensure the default view is set
+        });
+    </script>
+</body>
+</html>
