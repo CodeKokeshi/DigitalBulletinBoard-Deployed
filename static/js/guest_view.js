@@ -106,7 +106,7 @@ function updateCarouselItems(containerId, items) {
         carouselItem.className = `carousel-item ${index === 0 ? 'active' : ''}`;
         carouselItem.innerHTML = `
             <a href="${item.link}" target="_self">
-                <img src="/static${item.image_attachment || '/images/default.png'}?v={{ version }}" class="d-block w-100" alt="${item.title}">
+                <img src="${item.image_attachment || '/static/images/default.png'}?v={{ version }}" class="d-block w-100" alt="${item.title}">
             </a>
             <div class="carousel-caption">
                 <h5>${item.title}</h5>

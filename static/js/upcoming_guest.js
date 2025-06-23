@@ -61,7 +61,7 @@ function renderPage(page) {
         }
 
         const image = document.createElement('img');
-        image.src = item.image_attachment ? `/static${item.image_attachment}?v={{ version }}` : '/static/images/default.png?v={{ version }}';
+        image.src = item.image_attachment || '/static/images/default.png?v={{ version }}';
         image.alt = item.title;
         image.style.height = '250px';
         image.style.border = '1px solid #ccc'; // Add border
