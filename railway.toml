@@ -11,11 +11,11 @@
 # ENVIRONMENT=production
 # ALLOWED_HOSTS=yourapp.railway.app,yourdomain.com
 
-# TIMEZONE CONFIGURATION (Philippines/Singapore +8 GMT)
+# TIMEZONE CONFIGURATION (Philippines +8 GMT)
 # TIMEZONE=Asia/Manila
-# RUNTIME_START_HOUR=9         # 9 AM Philippines time
-# RUNTIME_END_HOUR=21          # 9 PM Philippines time
-# RUNTIME_WEEKDAYS_ONLY=true   # Portfolio mode: Monday-Friday only
+# RUNTIME_START_HOUR=7         # 7 AM Philippines time
+# RUNTIME_END_HOUR=19          # 7 PM Philippines time  
+# RUNTIME_WEEKDAYS_ONLY=false  # Daily operation: Monday-Sunday
 
 # Your encrypted configuration files will be deployed automatically
 # Railway will preserve your encrypted_data/ and super_secret_stuff/ directories

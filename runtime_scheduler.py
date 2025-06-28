@@ -14,19 +14,19 @@ class RuntimeScheduler:
         """
         self.timezone = pytz.timezone(timezone)
         
-        # Default schedule: Run 8 AM to 10 PM (14 hours)
-        # This uses only ~420 hours per month instead of 720
-        self.start_time = time(8, 0)   # 8:00 AM
-        self.end_time = time(22, 0)    # 10:00 PM
+        # Default schedule: Run 7 AM to 7 PM Philippine Time (12 hours)
+        # This uses only ~360 hours per month instead of 720
+        self.start_time = time(7, 0)   # 7:00 AM
+        self.end_time = time(19, 0)    # 7:00 PM
         
         # Override with environment variables if set
-        start_hour = int(os.environ.get("RUNTIME_START_HOUR", "8"))
-        end_hour = int(os.environ.get("RUNTIME_END_HOUR", "22"))
+        start_hour = int(os.environ.get("RUNTIME_START_HOUR", "7"))
+        end_hour = int(os.environ.get("RUNTIME_END_HOUR", "19"))
         
         self.start_time = time(start_hour, 0)
         self.end_time = time(end_hour, 0)
         
-        # Portfolio mode: weekdays only
+        # Portfolio mode: daily operation (set to false for daily, true for weekdays only)
         self.weekdays_only = os.environ.get("RUNTIME_WEEKDAYS_ONLY", "false").lower() == "true"
     
     def is_runtime_allowed(self) -> bool:
@@ -106,8 +106,8 @@ class RuntimeScheduler:
             # Overnight schedule
             return 24 - self._calculate_daily_hours()
 
-# Global scheduler instance
-scheduler = RuntimeScheduler(timezone=os.environ.get("TIMEZONE", "UTC"))
+# Global scheduler instance - Default to Philippine timezone
+scheduler = RuntimeScheduler(timezone=os.environ.get("TIMEZONE", "Asia/Manila"))
 
 def check_runtime_allowed():
     """Middleware to check if runtime is allowed"""
